@@ -1,0 +1,48 @@
+export const lvlToSpellSlots = {
+  1: [2],
+  2: [3],
+  3: [4,2],
+  4: [4,3],
+  5: [4,3,2],
+  6: [4,3,3],
+  7: [4,3,3,1],
+  8: [4,3,3,2],
+  9: [4,3,3,3,1],
+  10: [4,3,3,3,2],
+  11: [4,3,3,3,2,1],
+  12: [4,3,3,3,2,1],
+  13: [4,3,3,3,2,1,1],
+  14: [4,3,3,3,2,1,1],
+  15: [4,3,3,3,2,1,1,1],
+  16: [4,3,3,3,2,1,1,1],
+  17: [4,3,3,3,2,1,1,1,1],
+  18: [4,3,3,3,3,1,1,1,1],
+  19: [4,3,3,3,3,2,1,1,1],
+  20: [4,3,3,3,3,2,2,1,1],
+}
+
+export const warlockLvlToSpellSlots = {
+  1: { spellCount: 1, spellLvl: 1 },
+  2: { spellCount: 2, spellLvl: 1 },
+  3: { spellCount: 2, spellLvl: 2 },
+  4: { spellCount: 2, spellLvl: 2 },
+  5: { spellCount: 2, spellLvl: 3 },
+  6: { spellCount: 2, spellLvl: 3 },
+  7: { spellCount: 2, spellLvl: 4 },
+  8: { spellCount: 2, spellLvl: 4 },
+  9: { spellCount: 2, spellLvl: 5 },
+  10: { spellCount: 2, spellLvl: 5 },
+  11: { spellCount: 3, spellLvl: 5 },
+  12: { spellCount: 3, spellLvl: 5 },
+  13: { spellCount: 3, spellLvl: 5 },
+  14: { spellCount: 3, spellLvl: 5 },
+  15: { spellCount: 3, spellLvl: 5 },
+  16: { spellCount: 3, spellLvl: 5 },
+  17: { spellCount: 4, spellLvl: 5 },
+  18: { spellCount: 4, spellLvl: 5 },
+  19: { spellCount: 4, spellLvl: 5 },
+  20: { spellCount: 4, spellLvl: 5 },
+}
+
+
+export const lvls = Object.keys(lvlToSpellSlots)
